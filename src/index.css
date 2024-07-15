@@ -38,6 +38,7 @@ main {
 .title h1 {
   text-align: center;
   padding: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .search-box {
@@ -69,7 +70,7 @@ main {
 }
 
 .search-box .search-bar:focus {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: #5793B0;
 }
 
 ::placeholder {
