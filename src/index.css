@@ -29,6 +29,17 @@ main {
   padding: 25px;
 }
 
+.title {
+  font-style: italic;
+  font-size: 1.25rem;
+  background-color: #B2B3BC;
+}
+
+.title h1 {
+  text-align: center;
+  padding: 1rem;
+}
+
 .search-box {
   width: 50%;
   margin: 0 auto;
