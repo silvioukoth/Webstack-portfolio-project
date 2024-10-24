@@ -38,13 +38,13 @@ function App() {
     <div className={(typeof weather.main != "undefined") ? ((weather.main.temp > 16) ? 'app warm' : 'app') : 'app'}>
       <main>
       <header className='title'>
-        <h1>Weather Application.</h1>
+        <h1>WeatherNow.</h1>
       </header>
         <div className="search-box">
           <input 
             type="text"
             className="search-bar"
-            placeholder="Enter name i.e kakuma"
+            placeholder="Enter City"
             onChange={e => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
